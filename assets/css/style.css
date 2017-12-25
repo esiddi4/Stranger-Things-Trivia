@@ -1,0 +1,95 @@
+html {
+	background-image: url("../images/upsidedown.png");
+	background-attachment: fixed;
+}
+
+h1, h2, h3, p {
+	color: #eb272f;
+}
+
+header {
+	margin: 25px;
+}
+
+.timeRemaining {
+	color: #0c0e20;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+#time-remain {
+	color: #eb272f;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.logo, .trivia-title {
+	width: 25%;
+	display: block;
+    margin: 10px auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#start, #results, .container {
+	text-align: center;
+	width: 70%;
+	display: block;
+	padding: 20px;
+	margin: 20px auto;
+	background-color: rgba(255,255,255,0.85);
+	border: 2px solid #0c0d1f;
+	border-radius: 10px;
+}
+
+#start h3, p {
+	font-size: 18px;
+	color: #0c0e20;
+	margin: 5px 0;
+}
+
+#start p {
+	color: #266a81;
+}
+
+#results h2 {
+	font-size: 20px;
+	color: #0c0e20;
+	margin-bottom: 10px;
+}
+
+#results p {
+	color: #266a81;
+	font-size: 16px;
+}
+
+#results span {
+	color: #eb272f;
+}
+
+.container {
+	color: #0c0d1f;
+}
+
+.displayQues {
+	font-size: 18px;
+	margin: 15px 0 5px 0;
+	color: #266a81;
+}
+
+input[type="radio"] {
+	margin: 0 5px 0 15px;
+}
+
+button {
+	margin-top: 12px;
+	background-color: #eb272f;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-size: 15px;
+	font-family: "Times New Roman";
+}

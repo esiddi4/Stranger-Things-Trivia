@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Stranger Things Trivia Game</title>
+
+    <!-- Links to CSS styling -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+    <!-- Link to JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+       <img class= "logo" src="assets/images/logo1.png"> 
+       <h2 class="trivia-title">TRIVIA</h2>
+    </header>
+
+    <div id="start">
+            <h3>Welcome to Stranger Things Trivia!</h3>
+            <p>You have 60 seconds to guess Eleven questions.</p>
+            <button type="button" id="start-btn">START</button>
+    </div>
+
+    <div id="results">
+            <h2>Let's see how you did!</h2>
+            <p id="correct">Correct Answers: </p>
+            <p id="wrong">Wrong Answers: </p>
+            <p id="unanswered">Unanswered: </p>
+    </div>
+
+    <div class="container">
+        <div class="timeRemaining">Time Remaining:<br>
+            <span id="time-remain">60</span>
+        </div>
+
+        <div class="questions">
+            <!-- end questions-->
+        </div>
+
+        <button type="button" id="submit">SUBMIT</button>
+    </div>
+</body>
+    <script src="assets/javascript/trivia.js "></script>
+</html>
