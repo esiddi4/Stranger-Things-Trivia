@@ -72,6 +72,7 @@ $('#results').hide();
 
 // click to start the display questions
 var startGame = $("#start-btn").on('click', function() {
+    play();
     $("#start").fadeOut(400).hide();
     $(".container").fadeIn(400).show();
     countdown(60);
@@ -172,3 +173,9 @@ var gradeQuiz = $('#submit').on('click', function() {
     $('#unanswered').append('<span>' + unAnswered + '</span>');
 
 });
+
+
+var play = function () {
+    var audio = "<audio autoplay='autoplay'><source src='assets/audio/theme.mp3' type='audio/mpeg'></audio>";
+    $("#audio").html(audio);
+}
